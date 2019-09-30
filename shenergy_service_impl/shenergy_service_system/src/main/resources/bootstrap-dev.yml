@@ -1,0 +1,12 @@
+spring:
+  application:
+    # Dubbo 应用名称
+    name: energy-system-server
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.11.186:8848
+        group: sgnbs
+        namespace: 8087bc62-f39f-494d-9f7b-2383a858763d
+        file-extension: yaml
+        prefix: system
